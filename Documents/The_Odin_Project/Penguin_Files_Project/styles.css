@@ -1,13 +1,9 @@
 .header{
     color: white;
     background-color: #1F2937;
-    /*display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    align-items: flex-end; *//*leave this out for now*/
     font-size: 18px;
     font: #E5E7EB;
-    padding: 20px 7%; /*see video: https://www.youtube.com/watch?v=PwWHL3RyQgk*/
+    padding: 20px 7%; 
     height: 500px;
     padding-bottom: 150px;
 }
@@ -21,7 +17,7 @@
     color: #00bfff; 
     font-size: 30px; 
     padding: auto;
-    margin: auto; /*see video:https://www.youtube.com/watch?v=PwWHL3RyQgk*/
+    margin: auto; 
     margin-left: 15px;
     font-style: normal;
 }
@@ -106,11 +102,6 @@ ul{
 .middle_header{
     margin: 40px;
     margin-left: 80px;
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center; */
     gap: 50px;
     display: flex;
     flex-direction: row;
@@ -162,13 +153,6 @@ p{
     justify-content: center;
 }
 
-/*.text_under_card{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    justify-content: space-between;
-    padding: 2px 8.8%; 
-}*/
 
 .inspiring_quote{
     background-color: #E5E7EB;
