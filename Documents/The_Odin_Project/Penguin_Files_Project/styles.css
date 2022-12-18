@@ -195,6 +195,7 @@ p{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: auto;
 }
 
 .bottom_text{
@@ -214,10 +215,7 @@ p{
 }
 
 .bottom_button{
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    
     padding: .5% 1%;
     margin: 0px 400px; 
     box-shadow: 0 4px 8px 0;
@@ -225,6 +223,8 @@ p{
     background-color: #3882F6;
     border-color: #F9FAF8;
     color: #F9FAF8; 
+    min-width: 80px;
+
 }
 
 .footer{
